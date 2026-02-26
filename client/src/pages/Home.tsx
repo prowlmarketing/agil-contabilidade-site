@@ -632,7 +632,7 @@ function LocationSection() {
 // 8. Final CTA Section
 function FinalCTASection() {
   return (
-    <section className="py-24 bg-gray-900 relative overflow-hidden">
+    <section className="py-24 bg-gray-900/50 relative overflow-hidden">
       <div className="absolute top-0 left-0 w-64 h-64 bg-primary/10 rounded-full -translate-x-1/2 -translate-y-1/2" />
       <div className="absolute bottom-0 right-0 w-96 h-96 bg-primary/10 rounded-full translate-x-1/2 translate-y-1/2" />
       
@@ -643,12 +643,12 @@ function FinalCTASection() {
             alt="Ágil Contabilidade"
             width={150}
             height={50}
-            className="mx-auto mb-8 brightness-0 invert"
+            className="mx-auto mb-8"
           />
           
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-secondary-foreground mb-6 text-balance">
             Fale agora com um contador e{" "}
-            <span className="text-primary">resolva sua contabilidade</span>
+            resolva sua contabilidade
           </h2>
           
           <p className="text-xl text-secondary-foreground/80 mb-10">
@@ -670,7 +670,7 @@ function FinalCTASection() {
 
 function Footer() {
   return (
-    <footer className="py-8 bg-foreground text-background">
+    <footer className="py-8 bg-gray-900/50 text-background">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-4">
